@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import Navbar from "./Navbar";
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
-import Home from "./Pages/Home/home";
+import Home from "./Pages/Home/Home";
 import Mentor from "./Pages/Mentor/Mentor";
 import ExploreSkills from "./Pages/Skills/ExploreSkills";
 import ChatsAndBooking from "./Pages/Chats/ChatsAndBooking";
