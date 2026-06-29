@@ -12,13 +12,13 @@ const Navbar = () => {
           <NavLink to="/" className={({ isActive }) => isActive ? "text-yellow-400" : ""}>Home</NavLink>
         </li>
         <li className="cursor-pointer font-semibold hover:text-orange-100">
-          <NavLink to="/dashboard" className={({ isActive }) => isActive ? "text-yellow-400" : ""}>Dashboard</NavLink>
+          <NavLink to="/exploreskills" className={({ isActive }) => isActive ? "text-yellow-400" : ""}>Explore Skills</NavLink>
         </li>
         <li className="cursor-pointer font-semibold hover:text-orange-100">
           <NavLink to="/chatsandbooking" className={({ isActive }) => isActive ? "text-yellow-400" : ""}>Chats and Booking</NavLink>
         </li>
         <li className="cursor-pointer font-semibold hover:text-orange-100">
-          <NavLink to="/exploreskills" className={({ isActive }) => isActive ? "text-yellow-400" : ""}>Explore Skills</NavLink>
+          <NavLink to="/dashboard" className={({ isActive }) => isActive ? "text-yellow-400" : ""}>Dashboard</NavLink>
         </li>
         <li className="cursor-pointer font-semibold hover:text-orange-100">
           <NavLink to="/dashboard">
