@@ -1,0 +1,14 @@
+.theme-bg{
+    background-color: #4E4BAA;
+}
+.theme-color{
+    color: #4E4BAA;
+}
+
+.theme-border{
+    border: 2px solid #4E4BAA;
+}
+
+*{
+    font-family: "Poppins", sans-serif;
+}
